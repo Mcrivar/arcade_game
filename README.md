@@ -25,4 +25,7 @@ https://github.com/udacity/frontend-nanodegree-arcade-game
 
 https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true
 
+## Dependencies 
+
+sweetalert2 - https://sweetalert2.github.io/
 
