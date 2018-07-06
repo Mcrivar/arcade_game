@@ -34,7 +34,7 @@ Enemy.prototype.checkCollisions = function () {
     if (parseInt(this.x) >= player.x - 100 && parseInt(this.x) <= player.x + 40 && this.y === player.y) {
         player.reset();
         allLife.pop();
-        score.oddScores();
+        score.addScores();
         player.gameOver();
     }
 };
@@ -120,7 +120,7 @@ Score.prototype.update = function () {
     this.score = `Points: ${scores}`;
 };
 
-Score.prototype.oddScores = function () {
+Score.prototype.addScores = function () {
     if (scores >= 50) {
         scores -= 50;
     }
